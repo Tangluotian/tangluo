@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../CSS/Dailylife.css">
+    <title>Dailylife</title>
+</head>
+<body>
+    <div class="home">
+        <div class="content">
+            <div class="stars"></div>
+            <img class="bgc" src="../image/图书馆.jpg" width="100%" alt="">
+            <h3 class="title">欢迎来到我的个人网站</h3>
+            <h3 class="titles">今天也要加油鸭</h3>
+            <img class="icon" src="../image/百景园.webp" alt="">
+            <div class='ribbon'>
+                <!--按钮地址，需修改-->
+                <a href='../index.html'><span>Index</span></a>
+                <a href='./Dailylife.html'><span>Dailylife</span></a>
+                <a href='./About.html'><span>About</span></a>
+                <a href="./Eating.html"><span>Eating</span></a>
+                <a href="./Studying.html"><span>Studying</span></a>
+                <a href='https://tangluotian.github.io/612dorm/'><span>Form</span></a>
+                <a href='https://sunweixuanalpha.github.io/CS2308/'><span>Class</span></a>
+            </div>
+
+        </div>
+        <div class="icons">
+            <div class="icons_items">
+                <img class="icons_items_imgs" src="../image/西十二.jpeg" alt="">
+                <span>教学楼是我们每天必去取经之地</span>
+            </div>
+            <div class="icons_items2">
+                <img class="icons_items_imgs" src="../image/百景园.webp" alt="">
+                <span>每天都要在食堂里面纠结到底吃什么</span>
+            </div>
+            <div class="icons_items">
+                <img class="icons_items_imgs" src="../image/图书馆.jpg" alt="">
+                <span>充实的一天要在知识的海洋游啊游</span>
+            </div>
+            <div class="icons_items2">
+                <img class="icons_items_imgs" src="../image/我的小屋.jpg" alt="">
+                <span>忙碌的一天结束啦爬上小床跟世界说晚安</span>
+            </div>
+        </div>
+        <div class="introduce">
+            <div class="introduce_item">
+                <img class="introduce_item_img" src="../image/鸟瞰森林大学.jpg" alt="">
+                <span class="introduce_item_title">秋雁南行，层林尽染，色彩斑斓，如诗如画。大自然的画笔轻轻描绘出这个季节华科大的独特韵味。</span>
+
+            </div>
+            <div class="introduce_item">
+
+                <span class="introduce_item_titles">好看吗？是不是感觉很唯美，悄悄告诉你，这就是华科哟！</span>
+                <img class="introduce_item_img" src="../image/叶.png" alt="">
+            </div>
+            <div class="introduce_item">
+                <img class="introduce_item_img" src="../image/社指.png" alt="">
+                <span class="introduce_item_title">这可是我们学生社团指导中心的吉祥物————微仔，是不是萌萌哒。想多了解我们社指的话，可以加微仔的QQ哟。</span>
+            </div>
+            <div class="introduce_item">
+                <span class="introduce_item_titles">郁郁学府，国之上庠；七秩芳华，弦歌激扬。如今，华科大已走过71个春秋，我相信，华科越走越好！</span>
+                <img class="introduce_item_img" src="../image/校史馆.jpg" alt="">
+            </div>
+        </div>
+        <audio autoplay="autoplay" id="audio" loop="loop">
+                <source src="../image/范倪Liu - 南半球与北海道.mp3" type="audio/MP3">
+               
+        </audio>
+        <img class="music_img" src="./img/music_img.png" alt="">
+    </div>
+
+</body>
+<script>
+    let mucics = document.getElementById('audio')
+    document.body.addEventListener('mousemove', function() {
+        setTimeout(() => {
+            mucics.play();
+        }, 2000);
+    }, false);
+</script>
+
+</html>
